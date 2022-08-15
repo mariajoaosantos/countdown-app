@@ -6,5 +6,38 @@
 
 body {
   margin: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
+  background-image: url("./images/capeverde.png");
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 12rem;
+  font-weight: ormal;
+}
+
+.countdown-c {
+  display: flex;
+}
+
+.big-text {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
 }
