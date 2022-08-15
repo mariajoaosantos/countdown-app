@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -14,24 +14,26 @@ body {
   min-height: 100vh;
   background-position: center center;
   background-size: cover;
-
 }
 
 h1 {
   font-size: 4rem;
   margin-top: 12rem;
-  font-weight: ormal;
+  font-weight: normal;
+  justify-content: center;
 }
 
 .countdown-c {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .big-text {
   font-size: 6rem;
   font-weight: bold;
   line-height: 1;
-  margin: 0 2rem;
+  margin: 0.5rem 2rem;
 }
 
 .countdown-el {
